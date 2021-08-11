@@ -1,0 +1,127 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      },
+      {
+        "line": 2,
+        "value": "#enconding: UTF-8"
+      },
+      {
+        "line": 3,
+        "value": "#author: MarcusVinicius"
+      },
+      {
+        "line": 4,
+        "value": "#date: 27/05/2021"
+      },
+      {
+        "line": 5,
+        "value": "#version: 1.0"
+      }
+    ],
+    "line": 7,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Acessar a Pagina de Treinamento Automacao Web",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "que acesso Automacao com Batista",
+            "match": {},
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3611252700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Realizar o Upload de um arquivo presente no Desktop",
+        "description": "",
+        "id": "upload-de-um-documentos-para-o-site-automacao-com-batista;realizar-o-upload-de-um-arquivo-presente-no-desktop",
+        "after": [
+          {
+            "result": {
+              "duration": 90038000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "navego ate \"Outros\" e clico em \"Upload de arquivos\"",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "clico em \"File\"",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "devo fazer o Upload do arquivo \"LEIAME.txt\" que esta na pasta \"ParaUpload\"",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@web"
+          },
+          {
+            "line": 12,
+            "name": "@RealizarUpload"
+          }
+        ]
+      }
+    ],
+    "name": "Upload de um documentos para o site Automacao com Batista",
+    "description": "",
+    "id": "upload-de-um-documentos-para-o-site-automacao-com-batista",
+    "keyword": "Funcionalidade",
+    "uri": "TesteDeUpload.feature",
+    "tags": [
+      {
+        "line": 6,
+        "name": "@Upload"
+      }
+    ]
+  }
+]
