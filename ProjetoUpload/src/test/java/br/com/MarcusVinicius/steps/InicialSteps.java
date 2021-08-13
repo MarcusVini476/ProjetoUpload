@@ -5,14 +5,15 @@ import cucumber.api.java.pt.Dado;
 
 public class InicialSteps {
 	private InicialFuncionalidades inicialFuncionalidade;
-	
+
 	public InicialSteps() {
 		this.inicialFuncionalidade = new InicialFuncionalidades();
-		
+
 	}
+
 	@Dado("^que acesso Automacao com Batista$")
 	public void queAcessoAutomacaoComBatista() throws Throwable {
-	    this.inicialFuncionalidade.clicaNoBotaoComecarAutomacao();
+		this.inicialFuncionalidade.clicaNoBotaoComecarAutomacao();
 	}
 
 }

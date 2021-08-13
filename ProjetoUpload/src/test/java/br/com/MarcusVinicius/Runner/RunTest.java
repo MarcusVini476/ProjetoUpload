@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:\\Users\\Marcus Silva\\eclipse-workspace\\YamanCases\\src\\test\\resources",
+		features = "src/test/resources",
 		glue = {"br.com.MarcusVinicius.configuracoes",
 				"br.com.MarcusVinicius.Web"},
 		tags = "@web",
