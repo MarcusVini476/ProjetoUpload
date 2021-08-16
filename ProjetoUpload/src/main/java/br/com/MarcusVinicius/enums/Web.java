@@ -10,7 +10,7 @@ public enum Web implements WebApplication {
 	CHROME {
 		public WebDriver getWebDriver() {
 			System.setProperty("webdriver.chrome.driver", 
-					"C:\\Users\\Marcus Silva\\eclipse-workspace\\YamanCases\\src\\main\\resources\\drivers\\chromedriver.exe");
+					"src/main/resources/drivers/chromedriver.exe");
 			ChromeOptions opcoes = new ChromeOptions();
 			opcoes.addArguments("--disable-notifications");
 	
